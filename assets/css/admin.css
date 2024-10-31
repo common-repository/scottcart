@@ -1,0 +1,337 @@
+.scottcart_widget_row {
+	border-bottom: 1px solid #eee;
+}
+
+div.scottcart_widget td {
+    padding: 2px;
+	width: 30px;
+}
+
+.scottcart_top_margin {
+	margin-top: 15px;
+}
+
+.scottcart_cell_title_width {
+	width: 175px;
+}
+
+.scottcart_cell_width {
+	width: 250px;
+}
+
+.scottcart_cell_width_product {
+	width: 150px;
+}
+
+.scottcart_tab {
+	border-bottom: 1px solid #ccc;
+}
+
+.scottcart_price_div {
+	visibility: hidden;
+}
+
+@media all and ( max-width: 860px ) {
+.nav-tab-wrapper a {
+	padding: 2px 4px;
+	}
+}
+
+
+.scottcart-help-tip {
+	cursor: help;
+}
+
+.scottcart-ui-tooltip {
+	background: #E5E5E5 !important;
+	border: 1px solid #CCCCCC !important;
+	border-radius: 0px !important;
+	color: #000 !important;
+	max-width: 300px;
+	padding: 7px;
+}
+
+.scottcart_meta_box a {
+	text-decoration: none;
+}
+
+/***************** orders page *****************/
+
+.product-id, .variation-id, .attribute-id, .quantity-id, .price-id {
+	vertical-align: top !important;
+}
+
+/***************** settings *****************/
+
+.scottcart-wrapper a {
+	text-decoration: none;
+}
+
+#scottcart_shipping_table, .scottcart_shipping_table {
+	border-collapse: collapse;
+	margin: unset;
+}
+
+.scottcart_shipping_location_row {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+#scottcart_shipping_table_main td, #scottcart_tax_table td, #scottcart_shipping_types_table td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+.scottcart_shipping_table_rate {
+	background-color: #eee;
+}
+
+
+.scottcart_shipping_table_rate {
+	border: 1px solid #E5E5E5;
+	border-bottom: unset;
+}
+
+.scottcart_shipping_table_rate_row {
+	margin-bottom: 5px;
+	border: 1px solid #E5E5E5;
+	border-top: unset;
+}
+
+.scottcart-more {
+	display: none;
+}
+
+.scottcart-wrapper {
+	width: 98%;
+}
+
+#scottcart-menu-div {
+	display: inline-block;
+	width: 100%;
+}
+
+#scottcart-menu-title {
+	font-size: 20pt;
+	font-weight: 400;
+}
+
+.scottcart-menu-sub-title {
+	font-size: 10pt;
+	font-weight: 400;
+}
+
+.scottcart-wrapper a:focus  {
+	box-shadow: unset !important;
+}
+
+.scottcart-container .hndle {
+	cursor: unset !important;
+}
+
+.scottcart-settings-button {
+	position: relative;
+	top: 60px;
+}
+
+@media all and ( max-width: 740px ) {
+	.scottcart-settings-button {
+		position: relative;
+		top: 35px;
+		right: 30px;
+	}
+	
+	.scottcart-menu-sub-title {
+		display: none;
+	}
+}
+
+
+.scottcart_input {
+	width: 125px;
+	min-width: 125px;
+	max-width: 250px;
+}
+
+.scottcart_settings_dashboard_item {
+	max-width: 400px;
+	min-width: 200px;
+	width: 100%;
+	border: 1px solid #E5E5E5;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+	background-color: #fff;
+	
+}
+
+/***************** reports *****************/
+
+
+.scottcart-graph-placeholder {
+	width: 100%;
+	height: 90%;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.scottcart-graph-container {
+	box-sizing: border-box;
+	width: 95%;
+	height: 350px;
+	padding: 20px 15px 15px 15px;
+	margin: 15px auto 30px auto;
+	/*border: 1px solid #ddd;
+	background: #fff;*/
+}
+
+.legend table {
+	border-spacing: 5px;
+}
+
+#scottcart-graph-choices {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.scottcart-graph-legend {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#scottcart_report {
+	width: 100%;
+}
+
+.scottcart_report_overview {
+	background-color: #fff;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin: 10px;
+}
+
+.scottcart_report_title_blue {
+	color: #0073AA;
+}
+
+.scottcart_report_title_gray {
+	color: #555;
+}
+
+
+.scottcart-graph-placeholder .y1Axis {
+	color: #FA4616 !important;
+}
+
+.scottcart-graph-placeholder .y2Axis {
+	color: #0021A5 !important;
+}
+
+#scottcart_report .active{
+	box-shadow: unset !important;
+}
+
+#scottcart_report .button:focus{
+	border-color: #999999 !important;
+}
+
+
+/***************** deactivate survey *****************/
+.scottcart-hidden {
+	overflow: hidden;
+}
+
+.scottcart-popup-overlay .scottcart-internal-message {
+	margin: 3px 0 3px 22px;
+	display: none;
+}
+
+.scottcart-reason-input {
+	margin: 3px 0 3px 22px;
+	display: none;
+}
+
+.scottcart-reason-input textarea {
+	width: 100%;
+	display: block;
+}
+
+.scottcart-popup-overlay {
+	background: rgba(0,0,0, .8);
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	overflow: auto;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out:
+}
+
+.scottcart-popup-overlay.scottcart-active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.scottcart-serveypanel {
+	width: 600px;
+	background: #fff;
+	margin: 65px auto 0;
+}
+
+.scottcart-popup-header {
+	background: #f1f1f1;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.scottcart-popup-header h2 {
+	margin: 0;
+}
+
+.scottcart-popup-body {
+	padding: 10px 20px;
+}
+
+.scottcart-popup-footer {
+	background: #f9f3f3;
+	padding: 10px 20px;
+	border-top: 1px solid #ccc;
+}
+
+.scottcart-popup-footer:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.action-btns {
+	float: right;
+}
+
+.attention, .error-message {
+	color: red;
+	font-weight: 600;
+	display: none;
+}
+
+.scottcart-spinner {
+	display: none;
+}
+
+.scottcart-spinner img {
+	margin-top: 3px;
+}
+
+.scottcart_input_error {
+	border: 2px solid #E52315 !important;
+}
+
+.scottcart-popup-footer-explain {
+	color: #555;
+	font-size: 9pt;
+}
